@@ -21,19 +21,19 @@ btn_green.mousePressed(green_bg);
 function draw() {
   background(r,g,b);
 
-  function red_bg()
-  {
-    r = 225;
-    g = 0;
-    b =0;
-  }
+}
 
-  function green_bg()
-  {
-    r = 0;
-    g = 225;
-    b =0;
-  }
+function red_bg()
+{
+  r = 225;
+  g = 0;
+  b =0;
+}
 
+function green_bg()
+{
+  r = 0;
+  g = 225;
+  b =0;
 }
 
